@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Bookmark </title>
+    <meta name="description" content="Bookmark Landing Page | Frontend Mentor">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="./assets/images/logo-bookmark.svg" alt="Logo Bookmark">
+        </div>
+
+        <nav class="navbar">
+            <ul class="menu__items">
+                <li><a href="">Features</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a class="login__btn login__btn_red" href="">Login</a></li>
+            </ul>
+
+            <div class="mobile__menu">
+                <ion-icon class="mobile__menu_icon" name="menu"></ion-icon>
+
+                <div class="mobile__menu_content">
+                    <div class="mobile__menu_header">
+                        <img src="./assets/images/logo-bookmark.svg" alt="Logo Bookmark">
+                        <ion-icon class="mobile__menu_close" name="close"></ion-icon>
+                    </div>
+
+                    <ul class="mobile__menu_items">
+                        <li><a href="">Features</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><button>Login</button></li>
+                    </ul>
+
+                    <ul class="mobile__menu_socials">
+                        <li><a href="">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a></li>
+                        <li><a href="">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero__container">
+            <div class="content">
+                <h1>A Simple Bookmark Manager</h1>
+                <p>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your
+                    sites load instantly. Try it for free.</p>
+                <a class="login__btn" href="">Get it on Chrome</a>
+                <a class="login__btn login__btn_white" href="">Get it on Firefox</a>
+            </div>
+
+            <div class="illustration">
+                <img src="./assets/images/illustration-hero.svg" alt="">
+            </div>
+        </section>
+
+        <section class="features__container">
+            <div class="content">
+                <h2>Features</h2>
+                <p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync
+                    between your devices so you can access them on the go.</p>
+            </div>
+
+            <div class="tabs">
+                <div class="tab__menu">
+                    <button class="active tab__link">Simple Bookmarking</button>
+                    <button class="tab__link">Speedy Searching</button>
+                    <button class="tab__link">Easy Sharing</button>
+                </div>
+
+                <div class="active tab__content">
+                    <div class="illustration illustration1">
+                        <img src="./assets/images/illustration-features-tab-1.svg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Bookmark in one click</h3>
+                        <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you
+                            complete control over how you manage your favourite sites.</p>
+                        <a class="login__btn href=">More Info</a>
+                    </div>
+                </div>
+
+                <div class="tab__content">
+                    <div class="illustration illustration2">
+                        <img src="./assets/images/illustration-features-tab-2.svg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Intelligent search</h3>
+                        <p>Our powerful search feature will help you find saved sites in no time at all. No need to
+                            trawl through all of your bookmarks.</p>
+                        <a class="login__btn href=">More Info</a>
+                    </div>
+                </div>
+
+                <div class="tab__content">
+                    <div class="illustration illustration3">
+                        <img src="./assets/images/illustration-features-tab-3.svg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Share your bookmarks</h3>
+                        <p>Easily share your bookmarks and collections with others. Create a shareable link that you can
+                            send at the click of a button.</p>
+                        <a class="login__btn" href="">More Info</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="download__container">
+            <div class="content">
+                <h2>Download the extension</h2>
+                <p>We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like
+                    us to prioritize.</p>
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <img class="card__logo" src="./assets/images/logo-chrome.svg" alt="">
+                    <h4>Add to Chrome</h4>
+                    <p>Minimum version 62</p>
+
+                    <img class="card__dots" src="./assets/images/bg-dots.svg" alt="">
+                    <a class="login__btn" href="">Add & Install Extension</a>
+                </div>
+
+                <div class="card">
+                    <img class="card__logo" src="./assets/images/logo-firefox.svg" alt="">
+                    <h4>Add to Firefox</h4>
+                    <p>Minimum version 55</p>
+
+                    <img class="card__dots" src="./assets/images/bg-dots.svg" alt="">
+                    <a class="login__btn" href="">Add & Install Extension</a>
+                </div>
+
+                <div class="card">
+                    <img class="card__logo" src="./assets/images/logo-opera.svg" alt="">
+                    <h4>Add to Opera</h4>
+                    <p>Minimum version 46</p>
+
+                    <img class="card__dots" src="./assets/images/bg-dots.svg" alt="">
+                    <a class="login__btn" href="">Add & Install Extension</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="questions__container">
+            <div class="content">
+                <h2>Frequently Asked Questions</h2>
+                <p>Here are some of our FAQs. If you have any other questions you'd like answered please feel free to
+                    email us.</p>
+            </div>
+
+            <div class="questions">
+                <div class="question">
+                    <div class="question__ques">
+                        <h5>What is Bookmark?</h5>
+                        <ion-icon name="chevron-down"></ion-icon>
+                    </div>
+                    <div class="question__ans">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies
+                            fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <div class="question__ques">
+                        <h5>How can I request a new browser?</h5>
+                        <ion-icon name="chevron-down"></ion-icon>
+                    </div>
+                    <div class="question__ans">
+                        <p>Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula.
+                            Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+                            ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies.
+                            Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <div class="question__ques">
+                        <h5>Is there a mobile app?</h5>
+                        <ion-icon name="chevron-down"></ion-icon>
+                    </div>
+                    <div class="question__ans">
+                        <p>Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut
+                            condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra
+                            purus. Sed sollicitudin ex et ultricies bibendum.</p>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <div class="question__ques">
+                        <h5>What about other Chromium browsers?</h5>
+                        <ion-icon name="chevron-down"></ion-icon>
+                    </div>
+                    <div class="question__ans">
+                        <p>Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui.
+                            Aliquam vitae neque eget nisl gravida pellentesque non ut velit.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question__button">
+                <a class="login__btn" href="">More Info</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="form__container">
+            <p>35,000+ already joined</p>
+            <h2>Stay up-to-date with what we're doing</h2>
+
+            <form class="form" action="">
+                <div>
+                    <input type="text" placeholder="Enter your email address">
+                    <h6>Whoops, make sure it's an email.</h6>
+                    <ion-icon name="alert-circle"></ion-icon>
+                </div>
+                <button class="login__btn login__btn_red" type="submit">Contact Us</button>
+            </form>
+        </section>
+
+        <section class="footer__container">
+            <div class="footer-logo">
+                <a href="#"><img src="./assets/images/logo-bookmark.svg" alt=""></a>
+            </div>
+
+            <ul class="footer__menu">
+                <li><a href="">Features</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+
+            <ul class="footer__socials">
+                <li><a href="">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a></li>
+                <li><a href="">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a></li>
+            </ul>
+        </section>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="./assets/js/app.js" async defer></script>
+</body>
+
+</html>
